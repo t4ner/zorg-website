@@ -53,7 +53,7 @@ export default function Testimonials() {
                 </div>
               </div>
               <p className="text-gray-700 italic text-lg leading-relaxed mb-6">
-                "{testimonial.text}"
+                &ldquo;{testimonial.text}&rdquo;
               </p>
               <div className="flex text-yellow-400 text-xl">
                 {[...Array(testimonial.rating)].map((_, i) => (
